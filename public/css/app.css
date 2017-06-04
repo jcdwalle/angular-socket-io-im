@@ -1,7 +1,8 @@
 /* app css stylesheet */
 
 .overflowable {
-  height: 240px;
+  height: 500px;
+  width: 1000px;
   overflow-y: auto;
   border: 1px solid #000;
 }

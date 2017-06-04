@@ -13,7 +13,10 @@ function AppCtrl($scope, socket) {
   });
 
   socket.on('send:message', function (message) {
+    if (message() != "")
+    {
     $scope.messages.push(message);
+    }
   });
 
   socket.on('change:name', function (data) {
@@ -70,7 +73,7 @@ function AppCtrl($scope, socket) {
       name: $scope.newName
     }, function (result) {
       if (!result) {
-        alert('There was an error changing your name');
+        alert('There was an error changing your name.');
       } else {
 
         changeName($scope.name, $scope.newName);

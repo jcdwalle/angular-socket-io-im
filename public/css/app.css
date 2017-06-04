@@ -20,14 +20,13 @@
 }
 
 .body {
-
   font-family: sans-serif;
 }
 
 
 *
 {
-
+  background-image: url("http://i.imgur.com/hLvHPEc.jpg");
   color: #000 !important;
   font-family: Arial !important;
 }

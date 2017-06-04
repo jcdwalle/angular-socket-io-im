@@ -13,10 +13,6 @@ function AppCtrl($scope, socket) {
   });
 
   socket.on('send:message', function (message) {
-    if (message == "")
-    {
-      alert("Your message needs to say something!")
-    }
     $scope.messages.push(message);
   });
 

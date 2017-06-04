@@ -42,9 +42,9 @@ body {
   height: 55px;
   font-size: 20pt;
 }
-
+@font-face { font-family: ForcedSquare; src: url('FORCED SQUARE.TTF'); }
 *
 {
   color: #000 !important;
-  font-family: Arial !important;
+  font-family: ForcedSquare !important;
 }

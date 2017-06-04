@@ -9,9 +9,10 @@ block body
     .col
       .heading 
         p Messages
-        .overflowable
+        .overflowable, 
           p(ng-repeat='message in messages',
-            ng-class='{alert: message.user == "chatroom"}') {{message.user}}: {{message.text}}
+            ng-class='{alert: message.user == "chatroom"}',
+            class='boxtext') {{message.user}}: {{message.text}}
     style.
           p {
               font-size: 24px;
@@ -19,7 +20,9 @@ block body
     .col
       p Users
       .overflowable
-        p(ng-repeat='user in users') {{user}}
+        .chattext
+          p(ng-repeat='user in users',
+            class='boxtext') {{user}}
 
     .clr
       form(ng-submit='sendMessage()')

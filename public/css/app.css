@@ -4,7 +4,7 @@
   height: 500px;
   overflow-y: auto;
   border: 1px solid #000;
-
+  background-image: url("http://i2.kym-cdn.com/entries/icons/facebook/000/002/691/Naamloos-1.jpg");
 }
 
 .overflowable p {
@@ -16,9 +16,6 @@
   width: 350px;
 }
 
-.program {
-  background-image: url("http://i2.kym-cdn.com/entries/icons/facebook/000/002/691/Naamloos-1.jpg");
-}
 
 .clr {
   clear: both;

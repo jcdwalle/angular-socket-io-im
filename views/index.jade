@@ -8,7 +8,10 @@ block body
       .overflowable
         p(ng-repeat='message in messages',
           ng-class='{alert: message.user == "chatroom"}') {{message.user}}: {{message.text}}
-
+    style.
+          h1 {
+              font-size: 22px;
+          }
     .col
       h3 Users
       .overflowable

@@ -20,13 +20,14 @@
 }
 
 .body {
+  background-image: url("http://www.pixelmatortemplates.com/wp-content/uploads/2014/01/blueprint-final.png");
   font-family: sans-serif;
 }
 
 
 *
 {
-  background-image: url("http://i.imgur.com/a3SOYq9.jpg");
-  color: #000 !important;
+
+  color: #ffffff !important;
   font-family: Arial !important;
 }

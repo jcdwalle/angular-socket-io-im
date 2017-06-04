@@ -7,6 +7,9 @@
   background-image: url("http://i2.kym-cdn.com/entries/icons/facebook/000/002/691/Naamloos-1.jpg");
 }
 
+.chatbox {
+  width: 1000;
+}
 
 .overflowable p {
   margin: 0;

@@ -5,6 +5,7 @@ block body
   div(ng-controller='AppCtrl')
     .col
       h3 Messages
+      .messagebox
       .overflowable
         p(ng-repeat='message in messages',
           ng-class='{alert: message.user == "chatroom"}') {{message.user}}: {{message.text}}

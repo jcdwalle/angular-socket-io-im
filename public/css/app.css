@@ -3,7 +3,7 @@
 .overflowable {
   height: 500px;
   overflow-y: auto;
-  border: 2px solid #000;
+  border: 1px solid #000;
 }
 
 .overflowable p {
@@ -17,4 +17,8 @@
 
 .clr {
   clear: both;
+}
+
+.body {
+  font-family: sans-serif;
 }

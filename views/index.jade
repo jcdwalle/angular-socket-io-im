@@ -19,8 +19,8 @@ block body
 
     .clr
       form(ng-submit='sendMessage()')
-        | Message:
-        input(size='60', ng-model='message')
+      p | Message:
+        input(size='120', ng-model='message')
         input(type='submit', value='Send')
 
     .clr

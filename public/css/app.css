@@ -29,6 +29,11 @@
   font-size: 16pt;
   margin-left: 10px;
 }
+.messagebox {
+  width: 600px;
+  height: 55px;
+  font-size: 20pt;
+}
 
 *
 {

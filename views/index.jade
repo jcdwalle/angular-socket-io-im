@@ -4,7 +4,7 @@ block body
   h1 Julian's Sicknasty Instant Messenger (JSIM)
   div(ng-controller='AppCtrl')
     .col
-      h3 Messages
+      h2 Messages
       .overflowable
         p(ng-repeat='message in messages',
           ng-class='{alert: message.user == "chatroom"}') {{message.user}}: {{message.text}}
@@ -13,7 +13,7 @@ block body
               font-size: 22px;
           }
     .col
-      h3 Users
+      h2 Users
       .overflowable
         p(ng-repeat='user in users') {{user}}
 
@@ -25,7 +25,7 @@ block body
 
     .clr
       h3 Change your name
-      p Your current user name is {{name}}
+      p Your current user name is {{name}}!
       form(ng-submit='changeName()')
         input(ng-model='newName')
         input(type='submit', value='Change Name')

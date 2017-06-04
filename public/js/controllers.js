@@ -17,10 +17,7 @@ function AppCtrl($scope, socket) {
     {
       alert("Your message needs to say something!")
     }
-    else
-    {
     $scope.messages.push(message);
-    }
   });
 
   socket.on('change:name', function (data) {

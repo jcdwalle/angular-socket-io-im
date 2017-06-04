@@ -28,7 +28,7 @@ block body
       p Your current user name is {{name}}
       form(ng-submit='changeName()')
         input(ng-model='newName')
-        input(type='submit', value='Change Name')
+        input(type='submit', value='Change Name', class='button')
 
   script(src='js/lib/angular/angular.js')
   script(src='/socket.io/socket.io.js')

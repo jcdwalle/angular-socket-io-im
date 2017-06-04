@@ -4,7 +4,7 @@
   height: 500px;
   overflow-y: auto;
   border: 1px solid #000;
-  background-color: Gold;
+  background-color: #e6c300;
   /*background-image: url("http://i2.kym-cdn.com/entries/icons/facebook/000/002/691/Naamloos-1.jpg");*/
 }
 
@@ -28,7 +28,7 @@
 }
 
 body {
-background-color: Gold;
+background-color: #e6c300;
   /*background-image: url("http://i2.kym-cdn.com/entries/icons/facebook/000/002/691/Naamloos-1.jpg");*/
 }
 

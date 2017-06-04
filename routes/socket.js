@@ -17,7 +17,7 @@ var userNames = (function () {
       nextUserId = 1;
 
     do {
-      name = 'Guest ' + nextUserId;
+      name = 'Unnamed Person ' + nextUserId;
       nextUserId += 1;
     } while (!claim(name));
 
@@ -78,7 +78,7 @@ module.exports = function (socket) {
       userNames.free(oldName);
 
       name = data.name;
-      
+
       socket.broadcast.emit('change:name', {
         oldName: oldName,
         newName: name

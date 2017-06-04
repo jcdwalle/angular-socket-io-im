@@ -8,10 +8,10 @@ block body
   div(ng-controller='AppCtrl')
     .col
       .heading 
-      p Messages
-      .overflowable
-        p(ng-repeat='message in messages',
-          ng-class='{alert: message.user == "chatroom"}') {{message.user}}: {{message.text}}
+        p Messages
+        .overflowable
+          p(ng-repeat='message in messages',
+            ng-class='{alert: message.user == "chatroom"}') {{message.user}}: {{message.text}}
     style.
           p {
               font-size: 22px;

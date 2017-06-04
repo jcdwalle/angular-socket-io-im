@@ -4,7 +4,7 @@ block body
   h1 Julian's Sicknasty Instant Messenger (JSIM)
   div(ng-controller='AppCtrl')
     .col
-      h2 Messages
+      h3 Messages
       .overflowable
         p(ng-repeat='message in messages',
           ng-class='{alert: message.user == "chatroom"}') {{message.user}}: {{message.text}}
@@ -13,13 +13,13 @@ block body
               font-size: 22px;
           }
     .col
-      h2 Users
+      h3 Users
       .overflowable
         p(ng-repeat='user in users') {{user}}
 
     .clr
       form(ng-submit='sendMessage()')
-      p | Message:
+        p | Message:
         input(size='60', ng-model='message')
         input(type='submit', value='Send')
 

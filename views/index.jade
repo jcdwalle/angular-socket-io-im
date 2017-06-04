@@ -20,12 +20,12 @@ block body
     .clr
       form(ng-submit='sendMessage()')
       p | Message:
-        input(size='120', ng-model='message')
+        input(size='60',height='15', ng-model='message')
         input(type='submit', value='Send')
 
     .clr
       h3 Change your name
-      p Your current user name is {{name}}!
+      p Your current user name is {{name}}
       form(ng-submit='changeName()')
         input(ng-model='newName')
         input(type='submit', value='Change Name')

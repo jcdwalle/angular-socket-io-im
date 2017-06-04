@@ -43,14 +43,16 @@ body {
   font-size: 20pt;
 }
 
-@font-face
-{
-font-family: ForcedSquare;
-src: url('FORCED SQUARE.ttf');
-}
+@font-face {
+    font-family: 'forced_squaremedium';
+    src: url('forced_square-webfont.woff2') format('woff2'),
+         url('forced_square-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 *
 {
   color: #000 !important;
-  font-family: ForcedSquare !important;
+  font-family: forced_squaremedium !important;
 }

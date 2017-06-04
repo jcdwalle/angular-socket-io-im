@@ -5,9 +5,14 @@
   overflow-y: auto;
   border: 1px solid #000;
   background-color: #e6c300;
-  margin-left:: 10px;
+
   /*background-image: url("http://i2.kym-cdn.com/entries/icons/facebook/000/002/691/Naamloos-1.jpg");*/
 }
+
+.overflowable p {
+  margin-left: 4px;
+}
+
 
 .heading {
   font-size: 76px;

@@ -23,6 +23,12 @@
   font-family: sans-serif;
 }
 
+.button {
+  width: 150px;
+  height: 68px;
+  font-size: 16pt;
+  margin-left: 10px;
+}
 
 *
 {

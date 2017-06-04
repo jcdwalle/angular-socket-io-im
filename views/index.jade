@@ -5,14 +5,14 @@ block body
   div(ng-controller='AppCtrl')
     .col
       h3 Messages
-      .chatbox
+      .overflowable
         p(ng-repeat='message in messages',
           ng-class='{alert: message.user == "chatroom"}') {{message.user}}: {{message.text}}
     style.
           p {
               font-size: 22px;
           }
-    .col2
+    .col
       h3 Users
       .overflowable
         p(ng-repeat='user in users') {{user}}

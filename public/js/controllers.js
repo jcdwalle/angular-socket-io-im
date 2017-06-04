@@ -13,7 +13,7 @@ function AppCtrl($scope, socket) {
   });
 
   socket.on('send:message', function (message) {
-    if (message() != "")
+    if (message != "")
     {
     $scope.messages.push(message);
     }

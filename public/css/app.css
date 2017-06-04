@@ -1,10 +1,10 @@
 /* app css stylesheet */
 
 .overflowable {
-  height: 500px;
-  width: 500px;
+  height: 750;
   overflow-y: auto;
-  border: 1px solid #000;
+  overflow-x: auto;
+  border: 5px solid #000;
 }
 
 .overflowable p {
